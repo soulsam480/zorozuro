@@ -19,13 +19,12 @@
 </template>
 
 <script>
-import Container from '~/components/Container'
-
 import Prism from 'prismjs'
 import shareThis from 'share-this'
 import * as twitterSharer from 'share-this/dist/sharers/twitter'
 import * as facebookSharer from 'share-this/dist/sharers/facebook'
 import * as redditSharer from 'share-this/dist/sharers/reddit'
+import Container from '~/components/Container'
 
 export default {
   components: {

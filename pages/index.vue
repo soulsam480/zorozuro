@@ -2,7 +2,7 @@
   <section>
     <Container>
       <div class="intro">
-        <h1>Welcome to Sambit Sahoo</h1>
+        All Blog Posts
       </div>
     </Container>
     <Container flex>

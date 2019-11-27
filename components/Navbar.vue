@@ -2,12 +2,27 @@
   <nav class="navbar" role="navigation">
     <div class="navbar-inner">
       <div class="brand">
-        <nuxt-link to="/" class="nav-link">Blog Name</nuxt-link>
+        <nuxt-link to="/" class="nav-link">Sambit Sahoo</nuxt-link>
       </div>
       <ul class="social-icons">
         <li class="icon">
-          <a href="#" target="_blank" class="nav-link">
+          <a href="https://twitter.com/sambitsahoojs" target="_blank" class="nav-link">
             <font-awesome-icon :icon="['fab', 'twitter']" />
+          </a>
+        </li>
+         <li class="icon">
+          <a href="https://github.com/soulsam480" target="_blank" class="nav-link">
+            <font-awesome-icon :icon="['fab', 'github']" />
+          </a>
+        </li>
+         <li class="icon">
+          <a href="https://instagram.com/sambitsahoo.js" target="_blank" class="nav-link">
+            <font-awesome-icon :icon="['fab', 'instagram']" />
+          </a>
+        </li>
+         <li class="icon">
+          <a href="https://facebook.com/sahoo.sambit.7" target="_blank" class="nav-link">
+            <font-awesome-icon :icon="['fab', 'facebook']" />
           </a>
         </li>
       </ul>

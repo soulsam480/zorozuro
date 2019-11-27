@@ -4,6 +4,10 @@
       <div class="brand">
         <nuxt-link to="/" class="nav-link">Sambit Sahoo</nuxt-link>
       </div>
+      <div>
+                <nuxt-link to="/about" class="nav-link">About</nuxt-link>
+
+      </div>
       <ul class="social-icons">
         <li class="icon">
           <a href="https://twitter.com/sambitsahoojs" target="_blank" class="nav-link">

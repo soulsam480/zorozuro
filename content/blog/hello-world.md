@@ -3,7 +3,7 @@ title: Hello World !!
 summary: 'My First on a Static site generator built with Nuxt.js on top of VUE.js '
 date: 2019-11-27T12:53:09.732Z
 update: 2019-11-27T12:53:09.800Z
-author: Sambit Sahoo
+author: soulsam480
 thumbnail: /images/uploads/dscn6384.jpg
 ---
 **Hii Guys !!!** 

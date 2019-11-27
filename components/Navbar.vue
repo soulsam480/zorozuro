@@ -22,7 +22,7 @@
         </li>
          <li class="icon">
           <a href="https://facebook.com/sahoo.sambit.7" target="_blank" class="nav-link">
-            <font-awesome-icon :icon="['fab', 'facebook']" />
+            <font-awesome-icon :icon="['fab', ' fa-facebook']" />
           </a>
         </li>
       </ul>

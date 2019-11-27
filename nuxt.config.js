@@ -123,8 +123,7 @@ export default {
           'faDocker',
           'faWordpress',
           'faNodeJs',
-          'faYarn',
-          'facebook'
+          'faYarn'
         ]
       }
     ]
@@ -134,26 +133,9 @@ export default {
    * Manifest
    */
   manifest: {
-  
-    "name": "Sambit Sahoo",
-    "short_name": "Sambit Sahooner",
-    "description": "Sambit Sahoo blog PWA",
-    "version": "3.0",
-    "start_url": "/index.html",
-    "scope": ".",
-    "background_color": "#4fd6b7",
-    "theme_color": "#03fcc2",
-    "display": "standalone",
-    "orientation": "portrait-primary",
-    "dir": "ltr",
-    "lang": "en-US",
-    "related_applications": [
-  {
-     "platform": "play",
-     "url": "https://play.google.com/.../app_name",
-     "id": "com.example.app"
-  },
-]
+    name: 'Sambit Sahoo',
+    short_name: '<Blog Name>',
+    lang: 'en'
   },
 
   /**

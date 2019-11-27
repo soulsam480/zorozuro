@@ -22,7 +22,7 @@
         </li>
          <li class="icon">
           <a href="https://facebook.com/sahoo.sambit.7" target="_blank" class="nav-link">
-            <font-awesome-icon :icon="['fab', ' fa-facebook']" />
+            <font-awesome-icon :icon="['fab', 'facebook']" />
           </a>
         </li>
       </ul>
@@ -71,7 +71,7 @@
 
         a {
           display: inline-block;
-          padding: 1.1rem 1rem 1rem 1rem;
+          padding:11px 10px 10px 10px;
           box-shadow: none;
         }
       }

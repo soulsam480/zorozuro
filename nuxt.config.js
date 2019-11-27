@@ -69,7 +69,7 @@ export default {
       {
         hid: 'twitter:description',
         name: 'twitter:description',
-        content: 'Sambit Sahoo/ Developer, Dreamer, Enthusiast'
+        content: 'Sambit Sahoo/ Developer, Dreamer,'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
@@ -134,8 +134,17 @@ export default {
    */
   manifest: {
     name: 'Sambit Sahoo',
-    short_name: '<Blog Name>',
-    lang: 'en'
+    short_name: 'Sambit Sahoo',
+    description: 'Sambit Sahoo portfolio PWA',
+    version: '1.0',
+    start_url: '/',
+    scope: '.',
+    background_color: '#4fd6b7',
+    theme_color: '#03fcc2',
+    display: 'standalone',
+    orientation: 'portrait-primary',
+    dir: 'ltr',
+    lang: 'en-US'
   },
 
   /**

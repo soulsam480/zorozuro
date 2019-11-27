@@ -7,7 +7,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: '<Blog Name>',
+    title: 'Sambit Sahoo',
     meta: [
       {
         charset: 'utf-8'
@@ -19,37 +19,37 @@ export default {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: `https://example.com`
+        content: `https://sambitsahoo2.cf`
       },
       {
         hid: 'og:title',
         property: 'og:title',
-        content: '<Blog Name>'
+        content: 'Sambit Sahoo'
       },
       {
         hid: 'description',
         name: 'description',
-        content: '<Blog name> and description'
+        content: 'Sambit Sahoo/ Developer, Dreamer, Enthusiast'
       },
       {
         hid: 'og:description',
         property: 'og:description',
-        content: '<Blog name> and description'
+        content: 'Sambit Sahoo/ Developer, Dreamer, Enthusiast'
       },
       {
         hid: 'og:image:alt',
         property: 'og:image:alt',
-        content: '<Blog Name>'
+        content: 'Sambit Sahoo'
       },
       {
         hid: 'og:article:author',
         property: 'og:article:author',
-        content: 'https://github.com/code-tribe'
+        content: 'https://github.com/soulsam480'
       },
       {
         hid: 'og:site_name',
         property: 'og:site_name',
-        content: '<Blog Name>'
+        content: 'Sambit Sahoo'
       },
       {
         hid: 'og:type',
@@ -64,12 +64,12 @@ export default {
       {
         hid: 'twitter:title',
         name: 'twitter:title',
-        content: '<Blog Name>'
+        content: 'Sambit Sahoo'
       },
       {
         hid: 'twitter:description',
         name: 'twitter:description',
-        content: '<Blog name> and description'
+        content: 'Sambit Sahoo/ Developer, Dreamer, Enthusiast'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
@@ -133,8 +133,8 @@ export default {
    * Manifest
    */
   manifest: {
-    name: '<Blog Name>',
-    short_name: '<Blog Name>',
+    name: 'Sambit Sahoo',
+    short_name: 'Sambit Sahoo',
     lang: 'en'
   },
 

@@ -4,29 +4,29 @@
       <div class="brand">
         <nuxt-link to="/" class="nav-link">Sambit Sahoo</nuxt-link>
       </div>
-      <div>
-                <nuxt-link to="/about" class="nav-link">About</nuxt-link>
-
+      <div class="sec-nav">
+        <nuxt-link to="/about" class="nav-link">/About</nuxt-link>
+        <nuxt-link to="/" class="nav-link">/Home</nuxt-link>
       </div>
       <ul class="social-icons">
         <li class="icon">
           <a href="https://twitter.com/sambitsahoojs" target="_blank" class="nav-link">
-            <font-awesome-icon :icon="['fab', 'twitter']" />
+            <font-awesome-icon :icon="['fab', 'twitter']"/>
           </a>
         </li>
-         <li class="icon">
+        <li class="icon">
           <a href="https://github.com/soulsam480" target="_blank" class="nav-link">
-            <font-awesome-icon :icon="['fab', 'github']" />
+            <font-awesome-icon :icon="['fab', 'github']"/>
           </a>
         </li>
-         <li class="icon">
+        <li class="icon">
           <a href="https://instagram.com/sambitsahoo.js" target="_blank" class="nav-link">
-            <font-awesome-icon :icon="['fab', 'instagram']" />
+            <font-awesome-icon :icon="['fab', 'instagram']"/>
           </a>
         </li>
-         <li class="icon">
+        <li class="icon">
           <a href="https://facebook.com/sahoo.sambit.7" target="_blank" class="nav-link">
-            <font-awesome-icon :icon="['fab', 'facebook']" />
+            <font-awesome-icon :icon="['fab', 'facebook']"/>
           </a>
         </li>
       </ul>
@@ -37,7 +37,7 @@
 <style lang="scss" scoped>
 .navbar {
   width: 100%;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 
   .navbar-inner {
     display: flex;
@@ -61,9 +61,18 @@
         padding: 1rem;
         display: block;
         box-shadow: none;
+        cursor: pointer;
       }
     }
-
+    .sec-nav {
+      font-weight: 500;
+      text-align: left;
+      a {
+        padding: 10px;
+        box-shadow: none;
+        cursor: pointer;
+      }
+    }
     .social-icons {
       padding: 0;
       margin: 0;
@@ -75,9 +84,14 @@
 
         a {
           display: inline-block;
-          padding:11px 10px 10px 10px;
+          padding: 11px 10px 10px 10px;
           box-shadow: none;
         }
+      }
+    }
+    @media only screen and(max-width:600px) {
+      .brand {
+        display: none;
       }
     }
   }

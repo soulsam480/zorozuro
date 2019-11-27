@@ -72,7 +72,6 @@ h1 {
 }
 h2 {
   font-size: 1.8rem;
-  margin-top: 2rem;
 
   & + p {
     margin-top: 1rem;
@@ -80,7 +79,6 @@ h2 {
 }
 h3 {
   font-size: 1.5rem;
-  margin-top: 1.8rem;
 
   & + p {
     margin-top: 1rem;
@@ -130,10 +128,10 @@ ul {
 }
 
 main {
-  padding: 80px 0;
+  padding: 40px 0;
 
   @media (max-width: 567px) {
-    padding: 64px 0;
+    padding: 40px 0;
   }
 }
 

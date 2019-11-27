@@ -8,6 +8,13 @@ export default {
    */
   head: {
     title: 'Sambit Sahoo',
+    link: [
+      {
+        rel: 'dns-prefetch preconnect',
+        href: 'cdn.jsdeliver.net'
+
+      }
+    ],
     meta: [
       {
         charset: 'utf-8'
@@ -123,7 +130,8 @@ export default {
           'faDocker',
           'faWordpress',
           'faNodeJs',
-          'faYarn'
+          'faYarn',
+          'faFacebook'
         ]
       }
     ]

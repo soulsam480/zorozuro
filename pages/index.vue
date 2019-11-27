@@ -1,9 +1,10 @@
+/* eslint-disable */
 <template>
   <section>
     <Container>
       <div class="intro">
-        All Blog Posts
-      </div>
+<h3>        All Blog Posts
+</h3>      </div>
     </Container>
     <Container flex>
       <ArticleCard
@@ -39,6 +40,7 @@ export default {
 
     const blogList = await Promise.all(
       blogs.map(blog => awaitImport(blog))
+      // eslint-disable-next-line
     ).then(res => {
       return {
         blogList: res

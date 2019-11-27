@@ -5,14 +5,16 @@
         <h1>Welcome to Sambit Sahoo</h1>
       </div>
     </Container>
-
   </section>
 </template>
 <script>
 import Container from '~/components/Container'
+export default {
+  components: {
+    Container
+  }
+}
 </script>
-
-
 <style lang="scss" scoped>
 .intro {
   text-align: center;

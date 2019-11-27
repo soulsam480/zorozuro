@@ -41,7 +41,7 @@ body {
 
 body {
   color: #252525;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Slabo 27px', serif;
 }
 
 *,

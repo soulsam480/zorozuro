@@ -139,7 +139,7 @@ export default {
     "short_name": "Sambit Sahooner",
     "description": "Sambit Sahoo blog PWA",
     "version": "3.0",
-    "start_url": "/",
+    "start_url": "/index.html",
     "scope": ".",
     "background_color": "#4fd6b7",
     "theme_color": "#03fcc2",

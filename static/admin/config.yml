@@ -20,5 +20,5 @@ collections:
       - {label: "Updated Date", name: "update", widget: "date", required: false}
       - {label: "Author", name: "author", widget: "string", required: true}
       - {label: "Author Link", name: "authorlink", widget: "string", required: false}
-      - {label: "Featured Image", name: "thumbnail", widget: "image", required: true}
+      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}

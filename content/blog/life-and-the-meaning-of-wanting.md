@@ -9,6 +9,7 @@ date: 2019-11-28T18:42:12.790Z
 update: 2019-11-28T18:42:12.823Z
 author: soulsam480
 authorlink: 'https://github.com/soulsam480'
+thumbnail: /images/uploads/dfvdv.jpg
 ---
 Life itself is a process of wanting to get things. Life begins from the very moment we are born and the process of wanting starts right from that moment. Life is short and we may not get much time for achieving things that make us feel fulfilled. Being clear of the things that we want and that we desire will lead us to a more fulfilled life. The words 'Desire' and 'Want' are too different. To grow is to desire and achieve. But this can also be misinterpreted as becoming too materialistic. In the process of growing older and achieving deeds, we end up getting useless things and emotions that don't add value to our lives. A want is something that you desire and something that an individual does not possess yet. An individual can have unlimited wants based on their attitude and character.
 

@@ -38,6 +38,7 @@
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 1000;
   font-family: "Rubik", sans-serif;
   background-color: white;
 

@@ -131,7 +131,8 @@ export default {
           'faWordpress',
           'faNodeJs',
           'faYarn',
-          'faFacebook'
+          'faFacebook',
+          'faPython'
         ]
       }
     ]

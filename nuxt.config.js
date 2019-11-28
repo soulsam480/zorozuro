@@ -142,8 +142,8 @@ export default {
    * Manifest
    */
   manifest: {
-    name: 'Sambit Sahoo',
-    short_name: 'Sambit Sahoo',
+    name: 'Sambit Blog',
+    short_name: 'Sambit Blog',
     description: 'Sambit Sahoo portfolio PWA',
     version: '1.0',
     start_url: '/',
@@ -165,7 +165,7 @@ export default {
   pwa:{
       icon:{
 
-          sizes: [64, 120, 144, 152, 192, 384, 512]
+          sizes: [ 150, 192, 512]
 
       }
   },

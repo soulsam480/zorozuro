@@ -57,7 +57,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Slabo 27px', serif;
   line-height: 1.2;
   margin-bottom: 0;
 }
@@ -128,10 +128,10 @@ ul {
 }
 
 main {
-  padding: 40px 0;
+  padding: 80px 0;
 
   @media (max-width: 567px) {
-    padding: 40px 0;
+    padding: 80px 0;
   }
 }
 

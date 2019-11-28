@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar" role="navigation">
+  <nav class="navbar" role="navigation" id="navbar">
     <div class="navbar-inner">
       <div class="brand">
         <nuxt-link to="/" class="nav-link">Sambit Sahoo</nuxt-link>
@@ -33,11 +33,13 @@
     </div>
   </nav>
 </template>
-
 <style lang="scss" scoped>
 .navbar {
   width: 100%;
+  position: fixed;
+  top: 0;
   font-family: "Rubik", sans-serif;
+  background-color: white;
 
   .navbar-inner {
     display: flex;

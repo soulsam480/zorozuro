@@ -1,5 +1,5 @@
 ---
-type: Tutorial
+type: Python
 language: Python
 title: Effective Python learning resources.
 summary: Python learning resources and road map to learn faster and master in no time.

@@ -57,6 +57,9 @@ export default {
       case 'yarn':
         this.icon = 'yarn'
         break
+      case 'python' :
+        this.icon = 'python'
+        break
       default:
         this.icon = 'nodeJs'
     }
@@ -133,7 +136,9 @@ export default {
       color: #252525;
     }
   }
-
+  &.Lifestyle {
+    background-color: peachpuff;
+  }
   .card-inner {
     position: absolute;
     bottom: 1rem;

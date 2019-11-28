@@ -129,15 +129,15 @@ export default {
       color: #252525;
     }
   }
+  &.lifestyle {
+    background-color: peachpuff;
+  }
   &.other {
-    background-color: #ff8c42;
+    background-color: peachpuff;
 
     a {
       color: #252525;
     }
-  }
-  &.lifestyle {
-    background-color: peachpuff;
   }
   .card-inner {
     position: absolute;

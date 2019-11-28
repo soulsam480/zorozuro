@@ -52,12 +52,12 @@ export default {
         {
           hid: 'og:url',
           property: 'og:url',
-          content: `https://<domain>/blog/${this.slug}`
+          content: `https://sambitsahoo2.cf/blog/${this.slug}`
         },
         {
           hid: 'og:title',
           property: 'og:title',
-          content: `${this.title} | Code Tribe`
+          content: `${this.title} | Sambit Sahoo`
         },
         {
           hid: 'description',
@@ -72,7 +72,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: `https://<domain>${this.thumbnail}`
+          content: `https://sambitsahoo2.cf/${this.thumbnail}`
         },
         {
           hid: 'og:image:alt',
@@ -112,7 +112,7 @@ export default {
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: `https://code-tribe.com${this.thumbnail}`
+          content: `https://sambitsahoo2.cf/${this.thumbnail}`
         }
       ]
     }

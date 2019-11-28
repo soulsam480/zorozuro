@@ -136,7 +136,7 @@ export default {
       color: #252525;
     }
   }
-  &.Lifestyle {
+  &.lifestyle {
     background-color: peachpuff;
   }
   .card-inner {

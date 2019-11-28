@@ -32,7 +32,7 @@ export default {
   },
   head() {
     return {
-      title: `${this.title} | <Blog Name>`,
+      title: `${this.title} | Sambit Sahoo`,
       meta: [
         {
           hid: 'article:published_time',

@@ -153,7 +153,43 @@ export default {
     display: 'standalone',
     orientation: 'portrait-primary',
     dir: 'ltr',
-    lang: 'en-US'
+    lang: 'en-US',
+    related_applications: [
+      {
+        platform: 'play',
+        url: 'https://play.google.com/.../app_name',
+        id: 'com.example.app'
+      }
+     ]
+  },
+  pwa:{
+      icon:{
+
+          sizes: [192,  512, 150,]
+
+      }
+  },
+  workbox: {
+    runtimeCaching: [
+      {
+        urlPattern: 'https://fonts.googleapis.com/.*',
+        handler: 'cacheFirst',
+        method: 'GET',
+        strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
+      },
+      {
+        urlPattern: 'https://fonts.gstatic.com/.*',
+        handler: 'cacheFirst',
+        method: 'GET',
+        strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
+      },
+      {
+        urlPattern: 'https://cdn.jsdelivr.net/npm/workbox-cdn@4.3.1/workbox',
+        handler: 'cacheFirst',
+        method: 'GET',
+        strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
+      }
+    ]
   },
 
   /**

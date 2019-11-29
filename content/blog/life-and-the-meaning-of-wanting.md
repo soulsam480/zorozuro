@@ -5,8 +5,8 @@ summary: >-
   A want is something that you desire and something that an individual does not
   possess yet. An individual can have unlimited wants based on their attitude
   and character.
-date: 2019-11-28T18:42:12.790Z
-update: 2019-11-28T18:42:12.823Z
+date: 2019-10-30T18:30:00.000Z
+update: ''
 author: soulsam480
 authorlink: 'https://github.com/soulsam480'
 thumbnail: /images/uploads/dfvdv.jpg

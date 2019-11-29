@@ -33,7 +33,7 @@
       <br>
       <div class="darkone">
         <label class="switch">
-          <input type="checkbox" @click='darkMode'>
+          <input type="checkbox" @click='darkMode' checked>
           <span class="slider round"></span>
         </label>
       </div>

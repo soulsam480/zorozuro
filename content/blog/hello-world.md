@@ -2,8 +2,8 @@
 type: Lifestyle
 title: Hello World !!
 summary: 'My First on a Static site generator built with Nuxt.js on top of VUE.js '
-date: 2019-11-27T12:53:09.732Z
-update: 2019-11-27T12:53:09.800Z
+date: 2019-07-12T12:53:09.732Z
+update: ''
 author: soulsam480
 authorlink: 'https://github.com/soulsam480'
 thumbnail: /images/uploads/dscn6384.jpg

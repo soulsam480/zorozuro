@@ -89,7 +89,7 @@ export default {
     width: 100%;
     left: 0;
     top: 0;
-    color: #fff;
+    color: #000;
     box-shadow: none;
     background: rgba(0, 0, 0, 0);
     transition: 0.2s ease all;

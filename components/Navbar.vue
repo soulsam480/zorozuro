@@ -30,17 +30,36 @@
           </a>
         </li>
       </ul>
+      <br>
+      <div class="darkone">
+        <label class="switch">
+          <input type="checkbox" @click='darkMode'>
+          <span class="slider round"></span>
+        </label>
+      </div>
     </div>
   </nav>
 </template>
+<script>
+export default {
+  methods: {
+    darkMode() {
+      const home = document.getElementById('__nuxt')
+      home.classList.toggle('darkmode')
+    }
+  }
+}
+</script>
+
 <style lang="scss" scoped>
-.navbar {
+html{
+
+  .navbar {
   width: 100%;
   position: fixed;
   top: 0;
   z-index: 1000;
   font-family: "Rubik", sans-serif;
-  background-color: white;
 
   .navbar-inner {
     display: flex;
@@ -49,12 +68,19 @@
     max-width: 1200px;
     margin: 0 auto;
     align-items: center;
-
+    background-color: white;
+    .darkone{
+      @media only screen and(max-width: 600px){
+        display:none;
+      }
+    }
     .brand {
       display: block;
       font-weight: 700;
       text-align: left;
-
+      @media only screen and(max-width:600px) {
+        display: none;
+    }
       img {
         height: 24px;
         display: block;
@@ -75,7 +101,72 @@
         box-shadow: none;
         cursor: pointer;
       }
+      }
+      /* The CSS code for the toggle switch*/
+    .switch {
+        position: relative;
+        width: 45px;
+        display: inline-block;
+        height: 21px;
     }
+      .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #333333;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+      }
+
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 15px;
+        width: 15px;
+        top:3px;
+        bottom: 3px;
+        left: 2px;
+        right: 2px;
+        background-color: white;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+      }
+
+      input:checked + .slider {
+        background-color: #ccc;
+      }
+
+      input:focus + .slider {
+        box-shadow: 0 0 1px white;
+      }
+
+      input:checked + .slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+      }
+
+      /* Rounded sliders */
+      .slider.round {
+        border-radius: 100px;
+      }
+
+      .slider.round:before {
+        border-radius: 50%;
+        content: "";
+        color: black;
+      }
+    }
+
     .social-icons {
       padding: 0;
       margin: 0;
@@ -92,11 +183,7 @@
         }
       }
     }
-    @media only screen and(max-width:600px) {
-      .brand {
-        display: none;
-      }
-    }
   }
-}
+  }
+
 </style>

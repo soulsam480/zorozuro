@@ -1,12 +1,12 @@
 <template>
   <div class="site-wrapper">
-    <Navbar />
-
+    <Navbar/>
     <main id="main" class="main" role="main">
-      <nuxt />
+
+      <nuxt/>
     </main>
 
-    <Footer />
+    <Footer/>
   </div>
 </template>
 
@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../assets/scss/syntax.scss';
+@import "../assets/scss/syntax.scss";
 
 html {
   font-size: 20px;
@@ -38,10 +38,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
-
+  .darkmode {
+  background-color: #252525;
+  color: white;
+    a{
+      color: white;
+    }
+    .navbar-inner{
+        background-color: #252525 !important;
+        .nav-link{
+          color: white;
+        }
+      }
+}
 body {
   color: #252525;
-  font-family: 'Slabo 27px', serif;
+  font-family: "Slabo 27px", serif;
 }
 
 *,
@@ -57,7 +69,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Slabo 27px', serif;
+  font-family: "Slabo 27px", serif;
   line-height: 1.2;
   margin-bottom: 0;
 }

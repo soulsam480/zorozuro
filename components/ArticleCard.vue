@@ -129,9 +129,6 @@ export default {
       color: #252525;
     }
   }
-  &.lifestyle {
-    background-color: peachpuff;
-  }
   &.other {
     background-color: peachpuff;
 

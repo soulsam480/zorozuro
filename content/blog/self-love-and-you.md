@@ -5,8 +5,8 @@ summary: >-
   Going by definition “Self-love requires you to be honest about your current
   choices and thought patterns and undertake new practices that reflect
   self-worth.” ~Caroline Kirk.
-date: 2019-11-28T18:34:43.745Z
-update: 2019-11-28T18:34:43.777Z
+date: 2019-11-23T18:30:00.000Z
+update: ''
 author: soulsam480
 authorlink: 'https://github.com/soulsam480'
 thumbnail: /images/uploads/selflove.jpg

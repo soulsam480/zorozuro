@@ -8,28 +8,6 @@
         <nuxt-link to="/about" class="nav-link">/About</nuxt-link>
         <nuxt-link to="/" class="nav-link">/Blog</nuxt-link>
       </div>
-      <ul class="social-icons">
-        <li class="icon">
-          <a href="https://twitter.com/sambitsahoojs" target="_blank" class="nav-link">
-            <font-awesome-icon :icon="['fab', 'twitter']"/>
-          </a>
-        </li>
-        <li class="icon">
-          <a href="https://github.com/soulsam480" target="_blank" class="nav-link">
-            <font-awesome-icon :icon="['fab', 'github']"/>
-          </a>
-        </li>
-        <li class="icon">
-          <a href="https://instagram.com/sambitsahoo.js" target="_blank" class="nav-link">
-            <font-awesome-icon :icon="['fab', 'instagram']"/>
-          </a>
-        </li>
-        <li class="icon">
-          <a href="https://facebook.com/sahoo.sambit.7" target="_blank" class="nav-link">
-            <font-awesome-icon :icon="['fab', 'facebook']"/>
-          </a>
-        </li>
-      </ul>
       <br>
       <div class="darkone">
         <label class="switch">
@@ -69,11 +47,10 @@ html{
     margin: 0 auto;
     align-items: center;
     background-color: white;
-    .darkone{
-      @media only screen and(max-width: 600px){
-        display:none;
+    @media (max-width:600px) {
+        padding-top: 10px;
+        padding-bottom:10px;
       }
-    }
     .brand {
       display: block;
       font-weight: 700;
@@ -103,6 +80,9 @@ html{
       }
       }
       /* The CSS code for the toggle switch*/
+    .darkone{
+      padding-right: 10px;
+    }
     .switch {
         position: relative;
         width: 45px;
@@ -150,11 +130,14 @@ html{
       }
 
       input:checked + .slider:before {
+
         -webkit-transform: translateX(26px);
         -ms-transform: translateX(26px);
         transform: translateX(26px);
       }
-
+      input:checked + .slider.round:before{
+        background-color: rgb(37, 37, 37);
+      }
       /* Rounded sliders */
       .slider.round {
         border-radius: 100px;
@@ -164,23 +147,6 @@ html{
         border-radius: 50%;
         content: "";
         color: black;
-      }
-    }
-
-    .social-icons {
-      padding: 0;
-      margin: 0;
-      list-style-type: none;
-      line-height: 1;
-
-      li {
-        display: inline;
-
-        a {
-          display: inline-block;
-          padding: 11px 10px 10px 10px;
-          box-shadow: none;
-        }
       }
     }
   }

@@ -46,7 +46,7 @@ export default {
       {
         hid: 'og:image:alt',
         property: 'og:image:alt',
-        content: 'Sambit Sahoo'
+        content: 'https://sambitsahoo2.cf/_nuxt/icons/icon_150.ae673c.png'
       },
       {
         hid: 'og:article:author',

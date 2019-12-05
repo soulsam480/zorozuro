@@ -44,8 +44,8 @@ export default {
         content: 'Sambit Sahoo/ Developer, Dreamer, Enthusiast'
       },
       {
-        hid: 'og:image:alt',
-        property: 'og:image:alt',
+        hid: 'og:image',
+        property: 'og:image',
         content: 'https://sambitsahoo2.cf/_nuxt/icons/icon_150.ae673c.png'
       },
       {

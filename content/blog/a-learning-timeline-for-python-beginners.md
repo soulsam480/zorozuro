@@ -10,7 +10,7 @@ date: 2019-12-27T15:18:05.076Z
 update: 2019-12-27T15:18:05.090Z
 author: soulsam480
 authorlink: 'https://github.com/soulsam480'
-thumbnail: /images/uploads/1_mwfqygyvyqbzkkbphs5j_g.jpeg
+thumbnail: ''
 ---
 Python has been making headlines since it's advent. It's everywhere nowadays. The simplicity to write complex code and the parallel learning curve has made it the most sought after programming language. Its application can be extended to various domains such as Web development, Machine learning, Artificial intelligence and much more.
 

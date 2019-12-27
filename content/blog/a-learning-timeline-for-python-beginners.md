@@ -1,5 +1,5 @@
 ---
-type: ''
+type: Tutorial
 language: python
 title: A learning timeline for python beginners.
 summary: >-

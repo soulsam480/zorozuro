@@ -28,7 +28,7 @@ export default {
     return {
       size: 'two-thirds',
       language: this.articleInfo.attributes.language,
-      icon: 'js'
+      icon: ''
     }
   },
   mounted() {
@@ -59,6 +59,9 @@ export default {
         break
       case 'python' :
         this.icon = 'python'
+        break
+      case 'lifestyle' :
+        this.icon = 'envira'
         break
       default:
         this.icon = 'nodeJs'
@@ -129,11 +132,18 @@ export default {
       color: #252525;
     }
   }
-  &.other {
-    background-color: peachpuff;
+  &.python{
+    background-color:#2e6b9a;
+
+    a{
+      color: white;
+    }
+  }
+  &.lifestyle {
+    background-color: #57cfc3;
 
     a {
-      color: #252525;
+      color: black;
     }
   }
   .card-inner {

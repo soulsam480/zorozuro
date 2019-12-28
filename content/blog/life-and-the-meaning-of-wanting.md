@@ -1,5 +1,6 @@
 ---
-type: Lifestyle
+type: lifestyle
+language: lifestyle
 title: Life and the meaning of Wanting.
 summary: >-
   A want is something that you desire and something that an individual does not

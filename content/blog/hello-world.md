@@ -1,5 +1,6 @@
 ---
-type: Lifestyle
+type: lifestyle
+language: lifestyle
 title: Hello World !!
 summary: 'My First on a Static site generator built with Nuxt.js on top of VUE.js '
 date: 2019-07-12T12:53:09.732Z

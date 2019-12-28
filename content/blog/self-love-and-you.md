@@ -1,5 +1,6 @@
 ---
 type: lifestyle
+language: lifestyle
 title: Self Love and You !
 summary: >-
   Going by definition “Self-love requires you to be honest about your current

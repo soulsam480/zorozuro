@@ -1,5 +1,6 @@
 ---
-type: Lifetsyle
+type: lifetsyle
+language: lifestyle
 title: PARENTING- from a child's point of view.
 summary: 'PARENTING- from a child''s point of view '
 date: 2019-07-16T19:07:38.050Z

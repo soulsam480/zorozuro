@@ -132,7 +132,8 @@ export default {
           'faNodeJs',
           'faYarn',
           'faFacebook',
-          'faPython'
+          'faPython',
+          'faEnvira'
         ]
       }
     ]

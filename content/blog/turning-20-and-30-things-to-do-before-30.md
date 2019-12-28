@@ -1,5 +1,6 @@
 ---
 type: lifestyle
+language: lifestyle
 title: Turning 20 and 30 things to do before 30.
 summary: My 30 under 30 List.
 date: 2019-10-03T18:53:35.820Z

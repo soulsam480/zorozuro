@@ -1,5 +1,6 @@
 ---
 type: lifestyle
+language: lifestyle
 title: 'Social Media : A bane to Humanity.'
 summary: 'Social Media : A bane to Humanity.'
 date: 2019-08-07T19:01:11.732Z

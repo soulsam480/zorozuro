@@ -11,7 +11,7 @@ author: soulsam480
 authorlink: 'https://github.com/soulsam480'
 thumbnail: /images/uploads/2020.jpg
 ---
-This won't be another post on the internet filled with new year resolutions. This is my note of gratefulness towards everything that gave me joy, made me feel happier, gave me another reason to live on. Life has been great this year and the energy is pretty high for the coming one.
+This won't be another post on the internet filled with new year resolutions. This is my note of gratefulness towards everything that gave me joy, made me feel happier, gave me another reason to live on in 2019. Life has been great this year and the energy is pretty high for the coming one.
 
 2019 was a year of accomplishments both in the personal and professional front. **[Tiaamo.com](https://tiaamo.com)** got registered under MSME as an Enterprise. yay !! Our revenue rose  20% from last year. We grew reflecting upon mistakes. Made amazing and very cooperative customers which are more of a family now. We have successfully implemented a more robust framework for conducting both production and sales this year. Our website got redesigned and the PWA was released. I have already started working on a more fast, functional and effective cross-platform application. This year we ran faster, faster than we have ever imagined. We achieved some unset goals. 2019 was great.
 

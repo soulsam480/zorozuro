@@ -9,6 +9,7 @@ date: 2019-12-31T11:25:31.110Z
 update: 2019-12-31T11:25:31.155Z
 author: soulsam480
 authorlink: 'https://github.com/soulsam480'
+thumbnail: /images/uploads/2020.jpg
 ---
 This won't be another post on the internet filled with new year resolutions. This is my note of gratefulness towards everything that gave me joy, made me feel happier, gave me another reason to live on. Life has been great this year and the energy is pretty high for the coming one.
 
@@ -18,4 +19,4 @@ My personal life also improved a bit from the last one. I have started learning 
 
 I have learned an amazing lesson this year. Life becomes what we want it to be. Friends make it better. I'm so thankful to the people around me. I'm so much blessed to have you all. It feels the same every day, the same excitement towards a life with you all. I love you guys.
 
-I wrote this post in a rush so I think it became a bit bland. I'm thankful for everything life had for me in 2019. Ups and Downs are the faces of life and it's important to see'em all. The more you go down, the more you'll go up. Ending 2019 with an emotional note. Thank you !! Peace 🤘🤘
+I wrote this post in a rush so I think it became a bit bland. I'm thankful for everything life had for me in 2019. Ups and Downs are the faces of life and it's important to see'em all. The more you go down, the more you'll go up. I don't have any resolutions for 2020 because कल किसने देखा ? Ending 2019 with an emotional note. Thank you !! Peace 🤘🤘

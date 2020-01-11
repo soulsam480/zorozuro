@@ -102,7 +102,7 @@ export default {
         {
           hid: 'twitter:site',
           name: 'twitter:site',
-          content: '@tribe_code'
+          content: '@sambitsahoojs'
         },
         {
           hid: 'twitter:description',

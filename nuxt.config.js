@@ -96,7 +96,7 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
-    ['@nuxtjs/google-tag-manager', { id: 'GTM-PV76V8S' }],
+    ['@nuxtjs/google-tag-manager', { id: 'UA-161449705-1' }],
     '@nuxtjs/pwa',
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',

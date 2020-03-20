@@ -11,7 +11,7 @@ date: 2020-02-29T18:34:15.945Z
 update: 2020-02-29T18:34:16.010Z
 author: Sambit
 authorlink: 'https://github.com/soulsam480'
-thumbnail: /images/uploads/image-20160921-21723-zvi9hu.jpg
+thumbnail: /images/uploads/bore.jpg
 ---
 No, this is not an article on scientific facts about corona virus or not about those precautions. This pandemic has made my life a mess and I'm sure everyone else's too. This boredom is killing my mind and my mental peace. So I decided to write and make everybody feel, they are not alone.
 

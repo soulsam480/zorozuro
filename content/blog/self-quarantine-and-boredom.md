@@ -11,7 +11,7 @@ date: 2020-02-29T18:34:15.945Z
 update: 2020-02-29T18:34:16.010Z
 author: Sambit
 authorlink: 'https://github.com/soulsam480'
-thumbnail: /images/uploads/nztwm3zuad4kav27tfct.jpg
+thumbnail: /images/uploads/image-20160921-21723-zvi9hu.jpg
 ---
 No, this is not an article on scientific facts about corona virus or not about those precautions. This pandemic has made my life a mess and I'm sure everyone else's too. This boredom is killing my mind and my mental peace. So I decided to write and make everybody feel, they are not alone.
 
@@ -23,4 +23,4 @@ Something good to cheer you up (and me also), Our beloved and brave scientists a
 
 So be safe, protect yourself and your family. Let's fight boredom together by being virtually present to each other as much as we can. Our actions will save us. Thank you for reading! Peace 🤘🤘
 
-image from [vocal media](https://vocal.media/)
+image from [](https://vocal.media/)[theconversation.com](http://theconversation.com/)

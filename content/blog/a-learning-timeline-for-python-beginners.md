@@ -2,14 +2,13 @@
 type: python
 language: python
 title: A learning timeline for python beginners.
-summary: >-
-  Python is currently the most sought after language and It's becoming essential
-  to have this on your skillset. I'm too a beginner and here is my timeline for
-  learning python.
+summary: Python is currently the most sought after language and It's becoming
+  essential to have this on your skillset. I'm too a beginner and here is my
+  timeline for learning python.
 date: 2019-12-27T15:18:05.076Z
 update: 2019-12-27T15:18:05.090Z
 author: soulsam480
-authorlink: 'https://github.com/soulsam480'
+authorlink: https://github.com/soulsam480
 thumbnail: /images/uploads/1_mwfqygyvyqbzkkbphs5j_g.jpeg
 ---
 Python has been making headlines since it's advent. It's everywhere nowadays. The simplicity to write complex code and the parallel learning curve has made it the most sought after programming language. Its application can be extended to various domains such as Web development, Machine learning, Artificial intelligence and much more.
@@ -58,7 +57,7 @@ having a laptop or any like device may speed up the process after you pass throu
 * Link to an awesome video on youtube by **freecodecamp** : **[Learn Python by Building Five Games - Full Course freeCodeCamp.org](https://www.youtube.com/watch?v=XGf2GcyHPhc)**. Here is a recommendation to some ideas to build something using the knowledge you have gained so far.
 * After completing all the basics and assignments you can move forward to focus on a specific domain on programming with python. You can take on machine learning, AI, Automation, Data Science, Deep Learning Algorithms and etc.
 * Best of LUCK !!
-
+.
 Ending this post by a great Quote 
 
 > If you are not doing mistakes, you are not learning enough.

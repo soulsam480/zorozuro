@@ -8,6 +8,7 @@ date: 2020-05-26T16:27:21.638Z
 update: 2020-05-26T16:27:21.646Z
 author: sambit
 authorlink: https://instagram.com/sambitsahoo.js
+thumbnail: /images/uploads/IMG_20200526_214426.jpg
 ---
 So, guys, I haven't been writing for a long time. I have tried a couple of times to write but I had never landed a great article. I don't know why this is happening. I had a feeling that this lockdown will be a blessing for me and force me to create, but that seems like more of a distant dream to me now. The state of our country is not good either. Colleges, schools, and all other institutions which involve a gathering of mass are not going to open soon. Lockdown is not going great and I'm tired of doing all these assignments and classes. So I'm thinking of something to entertain us and fuel us with some good vibes this lockdown.
 

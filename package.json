@@ -1,7 +1,7 @@
 {
   "name": "nuxt-netlify-cms-starter",
   "version": "1.0.0",
-  "description": "<Blog Name> Blog",
+  "description": "",
   "author": "Code Tribe",
   "private": true,
   "scripts": {

@@ -82,3 +82,8 @@ dist
 
 # Service worker
 sw.*
+
+gh-pages
+gh-pages.pub
+deploy.sh
+.ssh

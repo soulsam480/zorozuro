@@ -1,6 +1,9 @@
 import blogs from "./content/blogs.json"
 
 export default {
+  router: {
+    base: '/'
+  },
   mode: "universal",
 
   /*

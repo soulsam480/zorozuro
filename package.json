@@ -8,7 +8,7 @@
     "dev": "node content/index.js && nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "node content/index.js && nuxt generate",
+    "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
     "test": "jest"

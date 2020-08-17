@@ -1,7 +1,7 @@
 ---
 type: js
 language: js
-title: Paytm payments for serverless websites.
+title: Paytm payments for serverless websites
 summary: Paytm payments integration for serverless JAMstack websites using
   Netlify lambda functions. This repo will save you from the nightmare of
   setting up a serverless payment integration from scratch.

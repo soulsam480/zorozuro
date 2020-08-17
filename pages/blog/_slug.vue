@@ -19,12 +19,12 @@
 </template>
 
 <script>
-import Prism from 'prismjs'
-import shareThis from 'share-this'
-import * as twitterSharer from 'share-this/dist/sharers/twitter'
-import * as facebookSharer from 'share-this/dist/sharers/facebook'
-import * as redditSharer from 'share-this/dist/sharers/reddit'
-import Container from '~/components/Container'
+import Prism from "prismjs";
+import shareThis from "share-this";
+import * as twitterSharer from "share-this/dist/sharers/twitter";
+import * as facebookSharer from "share-this/dist/sharers/facebook";
+import * as redditSharer from "share-this/dist/sharers/reddit";
+import Container from "~/components/Container";
 
 export default {
   components: {
@@ -35,92 +35,92 @@ export default {
       title: `${this.title} | Sambit Sahoo`,
       meta: [
         {
-          hid: 'article:published_time',
-          property: 'article:published_time',
+          hid: "article:published_time",
+          property: "article:published_time",
           content: this.date
         },
         {
-          hid: 'article:modified_time',
-          property: 'article:modified_time',
+          hid: "article:modified_time",
+          property: "article:modified_time",
           content: this.update
         },
         {
-          hid: 'og:updated_time',
-          property: 'og:updated_time',
+          hid: "og:updated_time",
+          property: "og:updated_time",
           content: this.update
         },
         {
-          hid: 'og:url',
-          property: 'og:url',
-          content: `https://sambitsahoo2.cf/blog/${this.slug}`
+          hid: "og:url",
+          property: "og:url",
+          content: `https://sambitsahoo.com/blog/${this.slug}`
         },
         {
-          hid: 'og:title',
-          property: 'og:title',
+          hid: "og:title",
+          property: "og:title",
           content: `${this.title} | Sambit Sahoo`
         },
         {
-          hid: 'description',
-          name: 'description',
+          hid: "description",
+          name: "description",
           content: this.summary
         },
         {
-          hid: 'og:description',
-          property: 'og:description',
+          hid: "og:description",
+          property: "og:description",
           content: this.summary
         },
         {
-          hid: 'og:image',
-          property: 'og:image',
-          content: `https://sambitsahoo2.cf/${this.thumbnail}`
+          hid: "og:image",
+          property: "og:image",
+          content: `https://sambitsahoo.com/${this.thumbnail}`
         },
         {
-          hid: 'og:image:alt',
-          property: 'og:image:alt',
+          hid: "og:image:alt",
+          property: "og:image:alt",
           content: this.title
         },
         {
-          hid: 'og:type',
-          property: 'og:type',
-          content: 'article'
+          hid: "og:type",
+          property: "og:type",
+          content: "article"
         },
         {
-          hid: 'og:article:author',
-          property: 'og:article:author',
+          hid: "og:article:author",
+          property: "og:article:author",
           content: this.authorlink
         },
         {
-          hid: 'twitter:card',
-          name: 'twitter:card',
-          content: 'summary_large_image'
+          hid: "twitter:card",
+          name: "twitter:card",
+          content: "summary_large_image"
         },
         {
-          hid: 'twitter:title',
-          name: 'twitter:title',
+          hid: "twitter:title",
+          name: "twitter:title",
           content: this.title
         },
         {
-          hid: 'twitter:site',
-          name: 'twitter:site',
-          content: '@sambitsahoojs'
+          hid: "twitter:site",
+          name: "twitter:site",
+          content: "@sambitsahoojs"
         },
         {
-          hid: 'twitter:description',
-          name: 'twitter:description',
+          hid: "twitter:description",
+          name: "twitter:description",
           content: this.summary
         },
         {
-          hid: 'twitter:image',
-          name: 'twitter:image',
-          content: `https://sambitsahoo2.cf/${this.thumbnail}`
+          hid: "twitter:image",
+          name: "twitter:image",
+          content: `https://sambitsahoo.com/${this.thumbnail}`
         }
       ]
-    }
+    };
   },
   async asyncData({ params }) {
-    const post = await import(`~/content/blog/${params.slug}.md`)
-    const attr = post.attributes
-    const slug = params.slug
+    const post = await import(`~/content/blog/${params.slug}.md`);
+    const attr = post.attributes;
+    const slug = params.slug;
 
     const {
       author,
@@ -131,19 +131,19 @@ export default {
       title,
       type,
       update
-    } = attr
+    } = attr;
 
     const dateOptions = {
-      weekday: 'long',
-      year: 'numeric',
-      month: 'short',
-      day: 'numeric'
-    }
+      weekday: "long",
+      year: "numeric",
+      month: "short",
+      day: "numeric"
+    };
 
-    const publishedDate = new Date(date)
-    const updatedDate = new Date(update)
-    const published = publishedDate.toLocaleDateString('en-GB', dateOptions)
-    const updated = updatedDate.toLocaleDateString('en-GB', dateOptions)
+    const publishedDate = new Date(date);
+    const updatedDate = new Date(update);
+    const published = publishedDate.toLocaleDateString("en-GB", dateOptions);
+    const updated = updatedDate.toLocaleDateString("en-GB", dateOptions);
 
     return {
       title,
@@ -158,19 +158,19 @@ export default {
       summary,
       slug,
       html: post.html
-    }
+    };
   },
   mounted() {
-    Prism.highlightAll()
+    Prism.highlightAll();
 
     const selectionShare = shareThis({
-      selector: '#shareable',
+      selector: "#shareable",
       sharers: [twitterSharer, facebookSharer, redditSharer]
-    })
+    });
 
-    selectionShare.init()
+    selectionShare.init();
   }
-}
+};
 </script>
 
 <style lang="scss">
@@ -182,7 +182,7 @@ export default {
     border-style: solid;
     border-width: 0.4em 0.4em 0;
     bottom: 100%;
-    content: '';
+    content: "";
     height: 0;
     left: 50%;
     transform: translateX(-50%);

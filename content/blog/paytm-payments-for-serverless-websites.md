@@ -21,15 +21,15 @@ thumbnail: /images/uploads/group-1.png
 
 ### 📑 Table of Contents
 
-* 🔰 [Getting Started](#getting-started)
-* 📐 [Setup](#setup)
-	* 🌱 [Basic Setup](#basic-setup)
-	* 🔥 [Usage with Firebase](#usage-with-firebase)
-* 🗜 [Integration](#integration)
-* 📓 [Notes](#notes)
-	* 🤓 [How it Works ?](#how-it-works)
-	* 🌋 [Errors](#errors)
-	* 📔 [References](#references)
+* 🔰 Getting Started
+* 📐 Setup
+	* 🌱 Basic Setup
+	* 🔥 Usage with Firebase
+* 🗜 Integration
+* 📓 Notes
+	* 🤓 How it Works ?
+	* 🌋 Errors
+	* 📔 References
 
 ### Getting Started
 

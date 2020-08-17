@@ -34,8 +34,6 @@ code {
   display: inline;
   overflow-x: auto;
   font-size: 0.8rem;
-  padding: 2px 4px;
-  border-radius: 0.2rem;
 }
 pre {
   code {
@@ -44,8 +42,10 @@ pre {
   }
   overflow-x: auto;
   overflow-y: hidden;
-  background-color: #1b1b1b;
+  background-color: #24292e;
   color: white;
+  padding: 10px 5px;
+  border-radius: 2px;
 }
 /* Inline code */
 :not(pre) > code[class*="language-"] {

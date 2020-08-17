@@ -3,8 +3,8 @@
   <section>
     <Container>
       <div class="intro">
-<h3>        All Blog Posts
-</h3>      </div>
+        <h3>All Blog Posts</h3>
+      </div>
     </Container>
     <Container flex>
       <ArticleCard
@@ -18,10 +18,10 @@
 </template>
 
 <script>
-import ArticleCard from '~/components/ArticleCard'
-import Container from '~/components/Container'
+import ArticleCard from "~/components/ArticleCard";
+import Container from "~/components/Container";
 
-import blogs from '~/content/blogs.json'
+import blogs from "~/content/blogs.json";
 
 export default {
   components: {
@@ -31,11 +31,11 @@ export default {
 
   async asyncData({ app }) {
     async function awaitImport(blog) {
-      const wholeMD = await import(`~/content/blog/${blog.slug}.md`)
+      const wholeMD = await import(`~/content/blog/${blog.slug}.md`);
       return {
         attributes: wholeMD.attributes,
         link: blog.slug
-      }
+      };
     }
 
     const blogList = await Promise.all(
@@ -44,12 +44,12 @@ export default {
     ).then(res => {
       return {
         blogList: res
-      }
-    })
+      };
+    });
 
-    return blogList
+    return blogList;
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>

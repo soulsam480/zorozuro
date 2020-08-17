@@ -1,25 +1,24 @@
 <template>
   <div class="site-wrapper">
-    <Navbar/>
+    <Navbar />
     <main id="main" class="main" role="main">
-
-      <nuxt/>
+      <nuxt />
     </main>
 
-    <Footer/>
+    <Footer />
   </div>
 </template>
 
 <script>
-import Footer from '~/components/Footer'
-import Navbar from '~/components/Navbar'
+import Footer from "~/components/Footer";
+import Navbar from "~/components/Navbar";
 
 export default {
   components: {
     Footer,
     Navbar
   }
-}
+};
 </script>
 
 <style lang="scss">
@@ -38,18 +37,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
-  .darkmode {
-  background-color: #252525;
-  color: white;
-    a{
-      color: white;
+.darkmode {
+  background-color: #252525 !important;
+  color: white !important;
+  a {
+    color: white !important;
+  }
+  .navbar-inner {
+    background-color: #252525 !important;
+    .nav-link {
+      color: white !important;
     }
-    .navbar-inner{
-        background-color: #252525 !important;
-        .nav-link{
-          color: white;
-        }
-      }
+  }
 }
 body {
   color: #252525;

@@ -37,11 +37,15 @@ code {
   font-size: 0.8rem;
   padding: 2px 4px;
   border-radius: 0.2rem;
-  word-wrap: break-word;
-  max-width: 100%;
-  overflow: auto;
 }
-
+pre {
+  code {
+    word-wrap: break-word;
+    max-width: 100%;
+    overflow: auto;
+    white-space: pre-wrap;
+  }
+}
 /* Inline code */
 :not(pre) > code[class*="language-"] {
   padding: 0.1em;

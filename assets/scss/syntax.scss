@@ -33,7 +33,6 @@ pre[class*="language-"] {
 code {
   display: inline;
   overflow-x: auto;
-  background-color: #f6f8fa;
   font-size: 0.8rem;
   padding: 2px 4px;
   border-radius: 0.2rem;
@@ -42,11 +41,11 @@ pre {
   code {
     word-wrap: break-word;
     max-width: 100%;
-    /*     white-space: pre-wrap;
- */
   }
   overflow-x: auto;
   overflow-y: hidden;
+  background-color: #1b1b1b;
+  color: white;
 }
 /* Inline code */
 :not(pre) > code[class*="language-"] {

@@ -29,7 +29,7 @@ export default {
       {
         hid: "og:url",
         property: "og:url",
-        content: `https://sambitsahoo2.cf`
+        content: `https://sambitsahoo.com`
       },
       {
         hid: "og:title",
@@ -49,7 +49,7 @@ export default {
       {
         hid: "og:image",
         property: "og:image",
-        content: "https://sambitsahoo2.cf/_nuxt/icons/icon_150.ae673c.png"
+        content: "https://sambitsahoo.com/_nuxt/icons/icon_150.ae673c.png"
       },
       {
         hid: "og:article:author",

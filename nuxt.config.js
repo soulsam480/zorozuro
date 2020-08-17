@@ -1,8 +1,9 @@
-import blogs from "./content/blogs.json"
+import blogs from "./content/blogs.json";
 
 export default {
+  arget: "static",
   router: {
-    base: '/'
+    base: "/"
   },
   mode: "universal",
 
@@ -240,7 +241,7 @@ export default {
           test: /\.(js|vue)$/,
           loader: "eslint-loader",
           exclude: /(node_modules)/
-        })
+        });
       }
 
       config.module.rules.push({
@@ -249,7 +250,7 @@ export default {
         options: {
           vue: true
         }
-      })
+      });
     }
   }
-}
+};

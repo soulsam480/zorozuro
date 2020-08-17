@@ -32,3 +32,5 @@ jobs:
         with:
           deploy_key: ${{ secrets.DEPLOY_KEY }}
           publish_dir: ./dist
+          publish_branch: gh-pages
+          cname: sambitsahoo.com

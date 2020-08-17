@@ -42,11 +42,11 @@ pre {
   code {
     word-wrap: break-word;
     max-width: 100%;
-    overflow: auto;
     /*     white-space: pre-wrap;
  */
   }
-  overflow-x: scroll;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 /* Inline code */
 :not(pre) > code[class*="language-"] {

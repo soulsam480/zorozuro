@@ -26,7 +26,7 @@ export default {
 
 html {
   font-size: 20px;
-  word-spacing: 1px;
+  word-spacing: 0.5px;
 }
 
 html,
@@ -39,9 +39,9 @@ body {
 }
 .darkmode {
   background-color: #252525 !important;
-  color: white !important;
+  color: white;
   a {
-    color: white !important;
+    color: white;
   }
   .navbar-inner {
     background-color: #252525 !important;
@@ -49,10 +49,13 @@ body {
       color: white !important;
     }
   }
+  .post-meta {
+    color: white !important;
+  }
 }
 body {
   color: #252525;
-  font-family: "Slabo 27px", serif;
+  font-family: "Alata", serif;
 }
 
 *,
@@ -68,9 +71,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Slabo 27px", serif;
   line-height: 1.2;
-  margin-bottom: 0;
+  margin-bottom: 5px;
+  font-weight: 400;
 }
 
 h1 {
@@ -106,7 +109,7 @@ h4 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1.6rem;
+  margin-bottom: 10px;
   font-size: 1rem;
   line-height: 1.6;
 }

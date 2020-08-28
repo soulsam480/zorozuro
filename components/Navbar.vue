@@ -1,18 +1,24 @@
 <template>
-  <nav class="navbar" role="navigation" id="navbar">
+  <nav id="navbar" class="navbar" role="navigation">
     <div class="navbar-inner">
       <div class="brand">
-        <nuxt-link to="/" class="nav-link">Sambit Sahoo</nuxt-link>
+        <nuxt-link to="/" class="nav-link">
+          Sambit Sahoo
+        </nuxt-link>
       </div>
       <div class="sec-nav">
-        <nuxt-link to="/about" class="nav-link">/About</nuxt-link>
-        <nuxt-link to="/" class="nav-link">/Blog</nuxt-link>
+        <nuxt-link to="/about" class="nav-link">
+          /About
+        </nuxt-link>
+        <nuxt-link to="/" class="nav-link">
+          /Blog
+        </nuxt-link>
       </div>
       <br />
       <div class="darkone">
         <label class="switch">
           <input type="checkbox" @click="darkMode" />
-          <span class="slider round"></span>
+          <span class="slider round" />
         </label>
       </div>
     </div>

@@ -26,54 +26,54 @@ export default {
   },
   data() {
     return {
-      size: 'two-thirds',
+      size: "two-thirds",
       language: this.articleInfo.attributes.language,
-      icon: ''
-    }
+      icon: ""
+    };
   },
   mounted() {
-    const articleNo = this.index + 1
+    const articleNo = this.index + 1;
 
-    this.size = 'one-third'
+    this.size = "one-third";
 
     // If is first or multiple of 10
-    if (articleNo === 1) this.size = 'two-thirds'
-    if (articleNo % 10 === 0) this.size = 'two-thirds'
+    if (articleNo === 1) this.size = "two-thirds";
+    if (articleNo % 10 === 0) this.size = "two-thirds";
 
     // Switch for font awesome icon
     switch (this.language) {
-      case 'vuejs':
-        this.icon = 'vuejs'
-        break
-      case 'react':
-        this.icon = 'react'
-        break
-      case 'js':
-        this.icon = 'js'
-        break
-      case 'wordpress':
-        this.icon = 'wordpress'
-        break
-      case 'yarn':
-        this.icon = 'yarn'
-        break
-      case 'python' :
-        this.icon = 'python'
-        break
-      case 'lifestyle' :
-        this.icon = 'envira'
-        break
+      case "vuejs":
+        this.icon = "vuejs";
+        break;
+      case "react":
+        this.icon = "react";
+        break;
+      case "js":
+        this.icon = "js";
+        break;
+      case "wordpress":
+        this.icon = "wordpress";
+        break;
+      case "yarn":
+        this.icon = "yarn";
+        break;
+      case "python":
+        this.icon = "python";
+        break;
+      case "lifestyle":
+        this.icon = "envira";
+        break;
       default:
-        this.icon = 'nodeJs'
+        this.icon = "nodeJs";
     }
   },
   methods: {
     capitalize(s) {
-      if (typeof s !== 'string') return ''
-      return s.charAt(0).toUpperCase() + s.slice(1)
+      if (typeof s !== "string") return "";
+      return s.charAt(0).toUpperCase() + s.slice(1);
     }
   }
-}
+};
 </script>
 
 <style lang="scss">
@@ -120,7 +120,7 @@ export default {
 
   // Types
   &.vuejs {
-    background-color: #3ab795;
+    background-color: #36c9a2;
   }
   &.react {
     background-color: #01baef;
@@ -132,10 +132,10 @@ export default {
       color: #252525;
     }
   }
-  &.python{
-    background-color:#2e6b9a;
+  &.python {
+    background-color: #2e6b9a;
 
-    a{
+    a {
       color: white;
     }
   }

@@ -1,4 +1,3 @@
-/* eslint-disable */
 <template>
   <section>
     <Container>
@@ -29,6 +28,7 @@ export default {
     Container
   },
 
+  // eslint-disable-next-line no-unused-vars
   async asyncData({ app }) {
     async function awaitImport(blog) {
       const wholeMD = await import(`~/content/blog/${blog.slug}.md`);

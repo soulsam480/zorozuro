@@ -1,7 +1,7 @@
 <template>
   <section class="post">
     <Container class="meta-section">
-      <h1>{{ title }}</h1>
+      <h2>{{ title }}</h2>
       <p v-if="published === updated" class="post-meta">
         Posted on {{ published }} by
         <a v-if="authorlink" :href="authorlink">{{ author }}</a>
@@ -13,13 +13,13 @@
     </Container>
     <Container narrow>
       <img v-lazy="thumbnail" class="thumbnail" :alt="title" />
-      <div id="shareable" class="post-content" v-html="html"></div>
+      <div id="shareable" class="post-content" v-html="html" />
     </Container>
   </section>
 </template>
 
 <script>
-import Prism from "prismjs";
+/* import Prism from "prismjs"; */
 import shareThis from "share-this";
 import * as twitterSharer from "share-this/dist/sharers/twitter";
 import * as facebookSharer from "share-this/dist/sharers/facebook";
@@ -161,7 +161,7 @@ export default {
     };
   },
   mounted() {
-    Prism.highlightAll();
+    /*  Prism.highlightAll(); */
 
     const selectionShare = shareThis({
       selector: "#shareable",

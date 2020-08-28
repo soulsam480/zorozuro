@@ -112,7 +112,7 @@ export default {
    */
   webfontloader: {
     google: {
-      families: ["Rubik:400,700", "Slabo+27px:400"] // Loads Lato font with weights 400 and 700
+      families: ["Rubik:400,700", "Alata"] // Loads Lato font with weights 400 and 700
     }
   },
 

@@ -53,9 +53,11 @@ body {
     color: white !important;
   }
 }
+:root,
+html,
 body {
   color: #252525;
-  font-family: "Alata", serif;
+  font-family: "Merriweather", serif !important;
 }
 
 *,

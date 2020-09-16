@@ -251,8 +251,8 @@ export default {
 
     .post-meta {
       margin: 0;
-      color: #535353;
-      font-weight: 700;
+      color: #8a8a8a;
+      font-size: 15px;
     }
   }
   h1 {

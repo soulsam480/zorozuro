@@ -1,6 +1,6 @@
 <template>
   <section class="post">
-    <Container class="meta-section">
+    <Container narrow class="meta-section">
       <h2>{{ title }}</h2>
       <p v-if="published === updated" class="post-meta">
         Posted on {{ published }} by
@@ -12,7 +12,7 @@
       </p>
     </Container>
     <Container narrow>
-      <img v-lazy="thumbnail" class="thumbnail" :alt="title" />
+      <img v-if="thumbnail" v-lazy="thumbnail" class="thumbnail" :alt="title" />
       <div id="shareable" class="post-content" v-html="html" />
     </Container>
   </section>
@@ -246,10 +246,11 @@ export default {
   }
 
   .meta-section {
-    text-align: center;
+    text-align: left;
     display: block;
 
     .post-meta {
+      padding-top: 5px;
       margin: 0;
       color: #8a8a8a;
       font-size: 15px;
@@ -262,7 +263,13 @@ export default {
     width: 100%;
   }
 }
+.post {
+  padding: 40px 0;
 
+  @media (max-width: 567px) {
+    padding: 40px 0;
+  }
+}
 @keyframes share-this {
   0% {
     opacity: 0;

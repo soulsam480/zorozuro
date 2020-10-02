@@ -1,5 +1,5 @@
 <template>
-  <div class="site-wrapper">
+  <div>
     <Navbar />
     <main id="main" class="main" role="main">
       <nuxt />
@@ -25,7 +25,7 @@ export default {
 @import "../assets/scss/syntax.scss";
 
 html {
-  font-size: 20px;
+  font-size: 18px;
   word-spacing: 0.5px;
 }
 
@@ -38,13 +38,13 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 .darkmode {
-  background-color: #252525 !important;
-  color: white;
+  background-color: #1b262c !important;
+  color: white !important;
   a {
     color: white;
   }
   .navbar-inner {
-    background-color: #252525 !important;
+    background-color: #222831 !important;
     .nav-link {
       color: white !important;
     }
@@ -54,8 +54,7 @@ body {
   }
 }
 :root,
-html,
-body {
+html {
   color: #252525;
   font-family: "Merriweather", serif !important;
 }
@@ -112,7 +111,7 @@ h4 {
 p {
   margin-top: 0;
   margin-bottom: 10px;
-  font-size: 1rem;
+  font-size: 18px;
   line-height: 1.6;
 }
 
@@ -144,10 +143,10 @@ ul {
 }
 
 main {
-  padding: 80px 0;
+  margin: 40px 0;
 
   @media (max-width: 567px) {
-    padding: 80px 0;
+    margin: 40px 0;
   }
 }
 

@@ -15,6 +15,10 @@ export default {
       type: Boolean,
       default: false
     }
+    /*     angled: {
+      type: Boolean,
+      default: false
+    } */
   }
 };
 </script>
@@ -40,5 +44,13 @@ export default {
   &.narrow {
     max-width: 760px;
   }
+  /*   &.angled {
+    &::before {
+      content: "";
+      position: absolute;
+      padding: 20px;
+      background-color: red;
+    }
+  } */
 }
 </style>

@@ -198,7 +198,7 @@ export default {
    * sitemap
    */
   sitemap: {
-    hostname: "https://example.com",
+    hostname: "https://sambitsahoo.com",
     gzip: true,
     exclude: ["/admin/"]
   },

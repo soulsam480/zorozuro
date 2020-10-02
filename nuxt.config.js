@@ -1,7 +1,7 @@
 import blogs from "./content/blogs.json";
 
 export default {
-  arget: "static",
+  target: "static",
   router: {
     base: "/"
   },
@@ -147,7 +147,7 @@ export default {
    */
   manifest: {
     name: "Sambit Blog",
-    short_name: "Sambit Blog",
+    short_name: "Pirate Blog",
     description: "Sambit Sahoo portfolio PWA",
     version: "1.0",
     start_url: "/",

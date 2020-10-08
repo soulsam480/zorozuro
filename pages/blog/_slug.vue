@@ -19,7 +19,8 @@
 </template>
 
 <script>
-/* import Prism from "prismjs"; */
+import Prism from "prismjs";
+import "prismjs/themes/prism-tomorrow.css";
 import shareThis from "share-this";
 import * as twitterSharer from "share-this/dist/sharers/twitter";
 import * as facebookSharer from "share-this/dist/sharers/facebook";
@@ -161,8 +162,7 @@ export default {
     };
   },
   mounted() {
-    /*  Prism.highlightAll(); */
-
+    Prism.highlightAll();
     const selectionShare = shareThis({
       selector: "#shareable",
       sharers: [twitterSharer, facebookSharer, redditSharer]
@@ -174,6 +174,16 @@ export default {
 </script>
 
 <style lang="scss">
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  p {
+    display: inline;
+  }
+}
 .share-this-popover {
   animation: share-this 360ms forwards linear;
 

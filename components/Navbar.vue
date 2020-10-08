@@ -17,7 +17,7 @@
       <br />
       <div class="darkone">
         <label class="switch">
-          <input type="checkbox" @click="darkMode" />
+          <input type="checkbox" @click="darkMode" checked />
           <span class="slider round" />
         </label>
       </div>
@@ -31,6 +31,9 @@ export default {
       const home = document.querySelector("html");
       home.classList.toggle("darkmode");
     }
+  },
+  mounted() {
+    this.darkMode();
   }
 };
 </script>
@@ -47,7 +50,7 @@ export default {
     justify-content: space-between;
     margin: 0 auto;
     align-items: center;
-    background-color: white;
+    background-color: rgb(241, 241, 241);
     @media (max-width: 600px) {
       padding-top: 10px;
       padding-bottom: 10px;

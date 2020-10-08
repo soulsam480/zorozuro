@@ -136,7 +136,8 @@ export default {
           "faYarn",
           "faFacebook",
           "faPython",
-          "faEnvira"
+          "faEnvira",
+          "faBootstrap"
         ]
       }
     ]

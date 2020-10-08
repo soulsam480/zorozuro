@@ -52,6 +52,9 @@ body {
   .post-meta {
     color: white !important;
   }
+  blockquote {
+    color: black;
+  }
 }
 :root,
 html {

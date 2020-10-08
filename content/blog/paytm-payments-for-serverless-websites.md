@@ -34,7 +34,7 @@ thumbnail: /images/uploads/group-1.png
 ### Getting Started
 
 To get started clone this repo.
-```
+```shell
 git clone git@github.com:soulsam480/paytm-netlify-lambda.git
 
 cd paytm-netlify-lambda
@@ -42,7 +42,7 @@ cd paytm-netlify-lambda
 npm install
 ```
 To serve the lambda functions locally we can run 
-```
+```shell
 npm run start
 ```
 But before that we have to setup the functions otherwise there will be errors!!
@@ -68,7 +68,7 @@ Webpack cofig sits inside the config folder. All our functions will be build int
 #### Basic Setup
 
 Open paytm_config.js inside the paytm folder.
-```
+```javascript
 module.exports = {
   paytm_config: {
     PAYTM_ENVIRONMENT: "TEST", //possible values:  TEST | PROD
@@ -90,7 +90,7 @@ If you don't wish to use firebase for order validation and confirmation, you can
 We will use [firebase-admin](npmjs.com/package/firebase-admin) sdk for nodejs to access admin privilages. With firebase admin running on server we can perform CRUD operations on realtime database easily.
 
 To setup admin sdk you need a firebase service account. To get yourself one open you firebase admin dashboard and then project settings > service accounts. Create one for your project and download the credentials in json. Then open src/cred/authKey.js . Add the credentials in their respective places.
-```
+```javascript
 module.exports = {
   authKey: {
     type: "service_account",
@@ -110,7 +110,7 @@ module.exports = {
 Then open src/payConf.js and add your database URL. With this the setup is complete.
 
 After each successful payment firebase-admin will create an order inside 
-```
+```javascript
 Orders/dd_mm_yy(current date)/orderId
 ```
 this could be further used to verify an proceed with the payment. This is the only advantage of using firebase inside this project. If you don't wish to verify your orders, you can drop firebase completely and move on with the basic approach.
@@ -126,7 +126,7 @@ This method makes a POST request to the api and creates and submits the form cle
 Let's move further for a good explanation.
 
 To make API calls you have to pass these parameters inside the body of your post request. Here is an example using axios. 
-```
+```javascript
 axios({
         method: "post",
         url:
@@ -162,7 +162,7 @@ axios({
 ```
 Here is the helper function which creates and submits the form client side inside browser.
 
-```
+```javascript
 //This plugin is used to perform form action request from jsvascript.
 //This is derived from https://github.com/jisaacks/react-post/blob/master/src/post.js
 function isDate(val) {

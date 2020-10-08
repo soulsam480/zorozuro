@@ -2,8 +2,6 @@ code {
   display: inline;
   overflow-x: auto;
   font-size: 0.8rem;
-  background-color: #2e3338;
-  color: white;
   padding: 5px;
   border-radius: 2px;
 }
@@ -14,16 +12,13 @@ pre {
   }
   overflow-x: auto;
   overflow-y: hidden;
-  background-color: #2e3338;
-  color: white;
   padding: 10px 5px;
-  border-radius: 2px;
+  border-radius: 5px;
   margin: 5px 0;
   & + h2 {
     margin-top: 20px;
   }
 }
-/* Inline code */
 :not(pre) > code[class*="language-"] {
   padding: 0.1em;
   border-radius: 0.3em;

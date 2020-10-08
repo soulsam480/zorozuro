@@ -1,5 +1,5 @@
 <template>
-  <article class="article-card" :class="[size, language]">
+  <article class="article-card" :class="[size, type]">
     <nuxt-link :to="`/blog/${articleInfo.link}`">
       <div class="card-inner">
         <p class="type">
@@ -28,6 +28,7 @@ export default {
     return {
       size: "two-thirds",
       language: this.articleInfo.attributes.language,
+      type: this.articleInfo.attributes.type,
       icon: ""
     };
   },
@@ -79,7 +80,6 @@ export default {
 <style lang="scss">
 .article-card {
   border-radius: 0.5rem;
-  background-color: #65f0f0;
   padding: 1rem;
   margin-bottom: 2rem;
   min-height: 240px;
@@ -127,21 +127,21 @@ export default {
   }
   &.js {
     background-color: #fff275;
-
-    a {
-      color: #252525;
-    }
   }
   &.python {
     background-color: #2e6b9a;
-
     a {
       color: white;
     }
   }
   &.lifestyle {
     background-color: #57cfc3;
-
+    a {
+      color: black;
+    }
+  }
+  &.ts {
+    background-color: #50affc;
     a {
       color: black;
     }

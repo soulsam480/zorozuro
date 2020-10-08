@@ -46,7 +46,7 @@ It's use cases will be payment integrations like Paytm which need an HTML form s
 
 From npm
 
-```
+```shell
 npm install vue-post --save
 ```
 ## Usage
@@ -73,7 +73,7 @@ The instance method `post` takes 3 parameters.
 * target: window of action (expected: _self, _blank)
 * params: a json object of input values ([See Notes](#notes))
 
-```
+```html
 /*any_component.vue*/
 
 <template>
@@ -101,7 +101,7 @@ export default{
 
 We have access to global component `Post` which is a HTML `a` tag. It requires a single prop `data` which is a json object. 
 
-```
+```html
 /*any_component.vue*/
 
 <template>
@@ -142,7 +142,7 @@ this.post({
 
 vue-post will build and submit the form as
 
-```
+```html
 <form action='https://itatakimas.com' target='_self' >
 <input type='hidden' name='NAME' value='Zoro'/>
 <input type='hidden' name='EMAIL' value='olo@olo.com'/>

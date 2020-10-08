@@ -1,5 +1,5 @@
 ---
-type: lifetsyle
+type: lifestyle
 language: lifestyle
 title: PARENTING- from a child's point of view.
 summary: 'PARENTING- from a child''s point of view '

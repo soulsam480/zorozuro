@@ -25,8 +25,9 @@ export default {
 @import "../assets/scss/syntax.scss";
 
 html {
-  font-size: 18px;
+  font-size: 16px;
   word-spacing: 0.5px;
+  font-weight: lighter !important;
 }
 
 html,
@@ -59,7 +60,7 @@ body {
 :root,
 html {
   color: #252525;
-  font-family: "Merriweather", serif !important;
+  font-family: "Noto Sans SC", serif !important;
 }
 
 *,

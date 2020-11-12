@@ -1,12 +1,12 @@
 <template>
   <section>
-    <Container>
+    <Container narrow>
       <div class="intro">
         <br />
         <h4>
           * created:
-          <span style="font-size:17px; "
-            ><a target="_blank" href="https:tiaamo.com">Tiaamo.com</a>
+          <span style="font-size:17px;"
+            ><a href="https:tiaamo.com">Tiaamo.com</a>
           </span>
           ;
         </h4>
@@ -70,7 +70,6 @@ export default {
   font-weight: lighter;
   text-align: left;
   margin-bottom: 2.4rem;
-
   h4 {
     margin-top: 10px;
   }

@@ -39,8 +39,8 @@
           </a>
         </li>
       </ul>
-      <span style="font-size:15px;"
-        >&copy; Sambit Sahoo {{ new Date().getFullYear() }}
+      <span style="font-size:15px;">
+        Sambit Sahoo {{ new Date().getFullYear() }}
       </span>
     </Container>
   </footer>

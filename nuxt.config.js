@@ -112,7 +112,7 @@ export default {
    */
   webfontloader: {
     google: {
-      families: ["Merriweather"] // Loads Lato font with weights 400 and 700
+      families: ["Noto Sans SC"] // Loads Lato font with weights 400 and 700
     }
   },
 
@@ -121,6 +121,10 @@ export default {
    */
   fontawesome: {
     imports: [
+      {
+        set: "@fortawesome/free-solid-svg-icons",
+        icons: ["fas"]
+      },
       {
         set: "@fortawesome/free-brands-svg-icons",
         icons: [
@@ -137,7 +141,8 @@ export default {
           "faFacebook",
           "faPython",
           "faEnvira",
-          "faBootstrap"
+          "faBootstrap",
+          "faLinkedin"
         ]
       }
     ]

@@ -13,11 +13,17 @@
         <nuxt-link to="/" class="nav-link">
           /Blog
         </nuxt-link>
+        <!-- <nuxt-link to="/projects" class="nav-link">
+          /Projects
+        </nuxt-link> -->
+        <nuxt-link to="/resume" class="nav-link">
+          /Résumé
+        </nuxt-link>
       </div>
       <br />
       <div class="darkone">
         <label class="switch">
-          <input type="checkbox" @click="darkMode" checked />
+          <input type="checkbox" @click="darkMode" />
           <span class="slider round" />
         </label>
       </div>
@@ -31,9 +37,6 @@ export default {
       const home = document.querySelector("html");
       home.classList.toggle("darkmode");
     }
-  },
-  mounted() {
-    this.darkMode();
   }
 };
 </script>
@@ -44,10 +47,13 @@ export default {
   position: fixed;
   top: 0;
   z-index: 1000;
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
   .navbar-inner {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0 auto;
     align-items: center;
     background-color: rgb(241, 241, 241);
@@ -78,7 +84,10 @@ export default {
       font-weight: 500;
       text-align: left;
       a {
-        padding: 10px;
+        &:first-child {
+          padding: 10px;
+        }
+        padding: 10px 5px;
         box-shadow: none;
         cursor: pointer;
       }

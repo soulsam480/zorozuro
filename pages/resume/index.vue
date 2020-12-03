@@ -59,7 +59,7 @@
             opprtunity to gain more knowledge.
           </p>
           <p>
-            I'm also the Co-Founder/CTO of a start-up
+            I'm also the Co-Founder/CTO of
             <a href="https://tiaamo.com">Tiaamo.com</a>. We are a clothing
             business which primarily operates in the wholesale domain. When I'm
             not coding I mostly take photos or write articles. I'm an otaku at

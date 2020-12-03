@@ -5,7 +5,7 @@
   "author": "Code Tribe",
   "private": true,
   "scripts": {
-    "dev": "node content/index.js && nuxt",
+    "serve": "node content/index.js && nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"

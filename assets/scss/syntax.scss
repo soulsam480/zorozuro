@@ -2,8 +2,8 @@ code {
   display: inline;
   overflow-x: auto;
   font-size: 0.8rem;
-  background-color: #2e3338;
-  color: white;
+  background-color: #e2e2e2;
+  color: black;
   padding: 5px;
   border-radius: 2px;
 }
@@ -21,6 +21,9 @@ pre {
   margin: 5px 0;
   & + h2 {
     margin-top: 20px;
+  }
+  & + p {
+    margin-top: 10px;
   }
 }
 :not(pre) > code[class*="language-"] {

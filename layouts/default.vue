@@ -115,7 +115,6 @@ h4 {
 p {
   margin-top: 0;
   margin-bottom: 10px;
-  font-size: 18px;
   line-height: 1.6;
 }
 
